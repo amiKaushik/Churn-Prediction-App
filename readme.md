@@ -1,4 +1,5 @@
 # Customer Churn Prediction using Artificial Neural Network (ANN)
+[![Website Click](https://www.svgrepo.com/show/447845/website-click.svg)](https://kashiekay-churn-prediction-app.streamlit.app/)
 
 ## 📌 Project Overview
 
@@ -85,4 +86,5 @@ Thanks for checking out this project!
 If this project helped you, feel free to ⭐ star the repo and share it with others learning 
 
 This project is for educational purposes only.
+
 
