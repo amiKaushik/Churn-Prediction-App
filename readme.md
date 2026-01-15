@@ -75,9 +75,9 @@ Thanks to open-source datasets and libraries that made this project possible.
 
 🚀 Connect With Me
 
-📧 Email: [kudokaito.pd@gmail.com](mailto:your.email@example.com)
-🔗 LinkedIn: https://www.linkedin.com/in/kaushik-das-919928317
-🐙 GitHub: - https://github.com/amiKaushik
+   + 📧 Email: [kudokaito.pd@gmail.com](mailto:your.email@example.com)
+   + 🔗 LinkedIn: https://www.linkedin.com/in/kaushik-das-919928317
+   + 🐙 GitHub: - https://github.com/amiKaushik
 
 
 Thanks for checking out this project!
@@ -85,3 +85,4 @@ Thanks for checking out this project!
 If this project helped you, feel free to ⭐ star the repo and share it with others learning 
 
 This project is for educational purposes only.
+
