@@ -3,7 +3,11 @@ import pandas as pd
 import pickle
 import tensorflow as tf
 
-st.image("src\Customer_Churn_image.png", width='stretch')
+from pathlib import Path
+
+image_path = Path(__file__).parent / "src" / "Customer_Churn_image.png"
+st.image(image_path, use_container_width=True)
+
 # Page setup
 st.set_page_config(
 page_title="Customer Churn Prediction",
