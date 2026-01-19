@@ -3,10 +3,7 @@ import pandas as pd
 import pickle
 import tensorflow as tf
 
-from pathlib import Path
-
-image_path = Path(__file__).parent / "src" / "Customer_Churn_image.png"
-st.image(image_path, use_container_width=True)
+st.image('src/Customer_Churn_image.png', use_container_width=True)
 
 # Page setup
 st.set_page_config(
@@ -15,10 +12,10 @@ layout="wide", # or "wide"
 )
 
 # Load trained ANN model
-model = tf.keras.models.load_model("saved_model\churn_model.h5")
+model = tf.keras.models.load_model("saved_model/churn_model.h5")
 
 # Load preprocessor (ColumnTransformer pipeline)
-with open("saved_model\preprocessor.pkl", "rb") as f:
+with open("saved_model/preprocessor.pkl", "rb") as f:
     preprocessor = pickle.load(f)
 
 def predict_churn(input_data):
