@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 import tensorflow as tf
 
-st.image('src/Customer_Churn_image.png', use_container_width=True)
+st.image('src/Customer_Churn_image.png', width=700)
 
 # Page setup
 st.set_page_config(
