@@ -3,13 +3,12 @@ import pandas as pd
 import pickle
 import tensorflow as tf
 
-st.image('src/Customer_Churn_image.png', width=700)
-
 # Page setup
 st.set_page_config(
 page_title="Customer Churn Prediction",
 layout="wide", # or "wide"
 )
+st.image('src/Customer_Churn_image.png', width=700)
 
 # Load trained ANN model
 model = tf.keras.models.load_model("saved_model/churn_model.h5")
